@@ -16,8 +16,7 @@
 
   <servlet>
     <servlet-name>authorsJsp</servlet-name>
-    <!--<jsp-file>/authors.jsp</jsp-file>-->
-    <servlet-class>ro.siit.web.AuthorsServlet</servlet-class>
+    <jsp-file>/authors.jsp</jsp-file>
   </servlet>
 
   <servlet>
