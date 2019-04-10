@@ -8,15 +8,16 @@
   <servlet>
     <servlet-name>helloServlet</servlet-name>  <!-- any name -->
     <servlet-class>ro.siit.web.HelloWorldServlet</servlet-class>
-    <init-param>
-      <param-name>name</param-name>
-      <param-value>Ionel</param-value>
-    </init-param>
-  </servlet>
+
+  </servlet><init-param>
+  <param-name>name</param-name>
+  <param-value>Ionel</param-value>
+</init-param>
 
   <servlet>
     <servlet-name>authorsJsp</servlet-name>
-    <jsp-file>/authors.jsp</jsp-file>
+    <servlet-class>ro.siit.web.authors.controller.AuthorsController</servlet-class>
+    <!--<jsp-file>/authors.jsp</jsp-file>-->
   </servlet>
 
   <servlet>
